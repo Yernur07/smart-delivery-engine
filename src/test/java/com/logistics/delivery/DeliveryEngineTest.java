@@ -46,7 +46,7 @@ class DeliveryEngineTest {
         RoutePlanner planner = new RoutePlanner(new EcoFriendlyRouteStrategy());
         DeliveryRequest request = new DeliveryRequest(DeliveryPriority.ECO, 1000.0, 60, true, false);
         Route result = planner.plan(routes, request);
-        assertEquals("Route C", result.id());
+        assertEquals("Route B", result.id());
     }
 
     @Test

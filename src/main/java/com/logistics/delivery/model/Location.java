@@ -1,4 +1,7 @@
 package com.logistics.delivery.model;
 
-public class Location {
-}
+public record Location(
+        String name,
+        double latitude,
+        double longitude
+) {}

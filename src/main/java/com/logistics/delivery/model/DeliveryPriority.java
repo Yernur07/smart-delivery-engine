@@ -1,4 +1,8 @@
 package com.logistics.delivery.model;
 
-public class DeliveryPriority {
+public enum DeliveryPriority {
+    URGENT,
+    ECONOMY,
+    ECO,
+    STANDARD
 }
